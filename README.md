@@ -1,11 +1,17 @@
 大佬blog https://cyborg2077.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/page/3/
 
 基础语法:https://leetcode.cn/discuss/post/138449/java-shua-ti-ji-chu-chang-yong-yu-fa-by-zhujiachen/
+        
         最大值与最小值
+        
         字符串处理（String 转换、常用方法）
+        
         StringBuilder & StringBuffer
+        
         数组操作
+        
         数字工具类
+        
         集合框架（Collection、List、Stack、Queue、Set、Map）
 
 集合转换: ArrayList<Integer> numsArray = Arrays.stream(nums).boxed().collect(Collectors.toCollection(ArrayList::new));
