@@ -2,6 +2,7 @@ package vector;
 
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 import static java.lang.Math.abs;
 import static java.lang.Math.min;
@@ -16,6 +17,7 @@ public class sumClosest16 {
         int[] nums = new int[]{10,20,30,40,50,60};
        int[] result = sumCloset(nums,target);
         Arrays.stream(result).forEach(System.out::println);
+      ///  ArrayList<Integer> numsArray = Arrays.stream(nums).boxed().collect(Collectors.toCollection(ArrayList::new));
     }
 
     public static int[] sumCloset(int[] nums,int target) {
@@ -26,7 +28,7 @@ public class sumClosest16 {
             int j=i+1,k= nums.length-1;
             while(j<k){
                 int lossNew =nums[j]+nums[k]+nums[i]-target;
-                if(abs(lossNew)<loss) {
+                if(Math.abs(lossNew)<loss) {
                     result =new int[]{nums[i],nums[j],nums[k]};
                     loss =abs(lossNew);
                 }
