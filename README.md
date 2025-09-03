@@ -5,6 +5,7 @@ in&out https://dcnaere2s61w.feishu.cn/wiki/SN7Rw5bgUis4mLkJ8qDcWkWdnPd
         最大值与最小值
         
         字符串处理（String 转换、常用方法）
+        Integer.parseInt()
         
         StringBuilder & StringBuffer
         
