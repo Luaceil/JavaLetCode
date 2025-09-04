@@ -15,8 +15,8 @@ in&out https://dcnaere2s61w.feishu.cn/wiki/SN7Rw5bgUis4mLkJ8qDcWkWdnPd
         
         集合框架（Collection、List、Stack、Queue、Set、Map）
 map :
-map.merge(key, 1, Integer::sum); (oldVal, newVal) -> oldVal + newVal
-ans += cnt.getOrDefault(key, 0)
+**map.merge(key, 1, Integer::sum); (oldVal, newVal) -> oldVal + newVal**
+**ans += cnt.getOrDefault(key, 0)**
 
 集合转换: ArrayList<Integer> numsArray = Arrays.stream(nums).boxed().collect(Collectors.toCollection(ArrayList::new));
 
@@ -30,7 +30,7 @@ scanner.nextLine();  // 消耗掉残留的换行符
 
 String text = scanner.nextLine();  // 正确读取下一行文本
 
-Arrays.stream(s.split(" ")).mapToInt(Integer::parseInt).forEach(System.out::println);
+**Arrays.stream(s.split(" ")).mapToInt(Integer::parseInt).forEach(System.out::println);**
 
 <img width="1134" height="492" alt="无标题" src="https://github.com/user-attachments/assets/669174d7-f37f-418a-a987-e2a77fbd2c9b" />
 
