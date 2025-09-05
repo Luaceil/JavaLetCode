@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/cook/cook.iml" filepath="$PROJECT_DIR$/cook/cook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fanSoft.iml" filepath="$PROJECT_DIR$/fanSoft.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/leetcode.iml" filepath="$PROJECT_DIR$/.idea/leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/leetcode-D/leetcode-D.iml" filepath="$PROJECT_DIR$/leetcode-D/leetcode-D.iml" />
     </modules>
