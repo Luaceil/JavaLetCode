@@ -1,6 +1,8 @@
 package treeLength;
 import java.util.*;
 
+
+
 public class Tree {
     public static class TreeNode{
         int val;
@@ -23,7 +25,7 @@ public class Tree {
 
    public static TreeNode arrToTree(ArrayList<Integer> arr){
        if (arr.isEmpty()) return null;
-       TreeNode root =new TreeNode(arr.getFirst());
+       TreeNode root =new TreeNode(arr.get(0));
        ArrayDeque<TreeNode> faNode =new ArrayDeque<>();
        faNode.addLast(root);
        int i=1;
@@ -76,8 +78,12 @@ public class Tree {
         MaxMinPair pair = dfsMAXMIN(root,valMax,valMin);
         valMax = pair.max;
         valMin = pair.min;
-        lca(root,valMax,valMin);
+        Tree.lca(root,valMax,valMin);
+        int result=0;
+        return result;
    }
    static boolean minGet=false;
-   private static  lca(TreeNode)
+   private static  TreeNode lca(TreeNode root,int max,int min){
+       return root;
+   }
 }
