@@ -13,8 +13,5 @@
         <module name="jd" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="intelligenceOfSH" target="21" />
-    </bytecodeTargetLevel>
   </component>
 </project>
