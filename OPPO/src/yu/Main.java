@@ -3,7 +3,12 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-// 注意类名必须为 Main, 不要有任何 package xxx 信息
+/*
+1
+3
+1 1 2
+1 2 3
+ */
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -47,10 +52,10 @@ public class Main {
                         }
                     }
                 }
-
-                if(!set.isEmpty()){fl=false;break;}
+                if(!set.isEmpty()){fl=false;}
+                if(set.isEmpty()){System.out.println("Yes");}else System.out.println("No");
             }
-            if(fl){System.out.println("Yes");}else System.out.println("No");
+           // if(fl){System.out.println("Yes");}else System.out.println("No");
         }
 
     }
