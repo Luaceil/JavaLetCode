@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaLetCode1.iml" filepath="$PROJECT_DIR$/.idea/JavaLetCode1.iml" />
       <module fileurl="file://$PROJECT_DIR$/OPP/OPP.iml" filepath="$PROJECT_DIR$/OPP/OPP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shein/Shein.iml" filepath="$PROJECT_DIR$/Shein/Shein.iml" />
+      <module fileurl="file://$PROJECT_DIR$/didi/didi.iml" filepath="$PROJECT_DIR$/didi/didi.iml" />
     </modules>
   </component>
 </project>
